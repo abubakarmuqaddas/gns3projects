@@ -1,0 +1,29 @@
+Sep 13 20:53:14.343 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Sep 13 20:53:14.343 HYPERVISOR: Started on TCP port = 55535.
+Sep 13 20:53:14.349 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 13 20:53:14.349 HYPERVISOR: exec_cmd: hypervisor working_dir /home/ubuntu/GNS3/projects/f8635393-77c7-4035-a7eb-8861b2bdaa63/project-files/dynamips 
+Sep 13 20:53:14.349 GENERAL: working_dir=/home/ubuntu/GNS3/projects/f8635393-77c7-4035-a7eb-8861b2bdaa63/project-files/dynamips
+Sep 13 20:53:14.349 HYPERVISOR: exec_cmd: hypervisor working_dir /home/ubuntu/GNS3/projects/f8635393-77c7-4035-a7eb-8861b2bdaa63/project-files/dynamips/98928f67-2e7e-4758-8a29-b4c9b12b0cd3 
+Sep 13 20:53:14.349 GENERAL: working_dir=/home/ubuntu/GNS3/projects/f8635393-77c7-4035-a7eb-8861b2bdaa63/project-files/dynamips/98928f67-2e7e-4758-8a29-b4c9b12b0cd3
+Sep 13 20:53:14.350 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Sep 13 20:53:14.350 VM: VM R2 created.
+Sep 13 20:53:14.350 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Sep 13 20:53:14.350 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Sep 13 20:53:14.351 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 13 20:53:14.351 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Sep 13 20:53:14.352 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Sep 13 20:53:14.352 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 13 20:53:14.352 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x62a4bae4 
+Sep 13 20:53:14.353 HYPERVISOR: exec_cmd: vm set_ios R2 /home/ubuntu/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.S3.image 
+Sep 13 20:53:14.353 HYPERVISOR: exec_cmd: c7200 set_mac_addr R2 ca02.1f24.0000 
+Sep 13 20:53:14.354 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Sep 13 20:53:14.354 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Sep 13 20:53:14.355 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 13 20:53:14.355 HYPERVISOR: exec_cmd: vm slot_remove_binding R2 0 0 
+Sep 13 20:53:14.355 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 13 20:53:14.355 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-GE-E 
+Sep 13 20:53:14.356 HYPERVISOR: exec_cmd: vm get_status R2 
+Sep 13 20:53:14.356 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-GE 
+Sep 13 20:56:29.859 HYPERVISOR: Stopped.
+Sep 13 20:56:29.859 VM: VM R2 destroyed.
+Sep 13 20:56:29.859 GENERAL: reset done.
